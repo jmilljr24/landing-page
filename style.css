@@ -8,13 +8,20 @@ body {
   justify-content: space-between;
 }
 
-.body-one {
+.body-one,
+.body-two,
+.body-three,
+.body-four,
+.footer {
+  padding-left: 10vw;
+  padding-right: 10vw;
   display: flex;
+}
+
+.body-one {
   flex-direction: column;
   background-color: #1f2937;
   color: #f9faf8;
-  padding-left: 10vw;
-  padding-right: 10vw;
   padding-top: 30px;
 }
 
@@ -67,4 +74,31 @@ body {
   width: 35vw;
   height: auto;
   border-radius: 1vw;
+}
+
+.body-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.info {
+  font-size: 32px;
+  font-weight: bolder;
+}
+.all-cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.image-text {
+  max-width: 150px;
+}
+
+img {
+  max-width: 150px;
+  height: auto;
 }
