@@ -129,3 +129,44 @@ body {
   font-weight: bold;
   font-size: 24px;
 }
+
+.body-four {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3382f6;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border-radius: 8px;
+  padding: 50px;
+  color: #e5e7e5;
+  padding-right: 10vw;
+}
+
+.action-text-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.action-text {
+  padding-left: 8vw;
+}
+
+.action-sign-up {
+  white-space: nowrap;
+  align-self: center;
+  border-style: solid;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.footer {
+  justify-content: center;
+  color: #e5e7e5;
+  background-color: #1f2937;
+  padding: 20px;
+}
