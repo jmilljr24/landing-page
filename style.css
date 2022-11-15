@@ -81,24 +81,33 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   text-align: center;
+  padding: 50px;
 }
 
 .info {
   font-size: 32px;
   font-weight: bolder;
+  padding-bottom: 50px;
 }
 .all-cards {
   display: flex;
-  justify-content: space-around;
-  padding: 10px;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 40px;
+}
+
+.card-image {
+  max-width: 150px;
+  height: auto;
+  border-radius: 15px;
 }
 
 .image-text {
   max-width: 150px;
+  color: rgb(88, 88, 88);
 }
-
-img {
+/*img {
   max-width: 150px;
   height: auto;
 }
+*/
