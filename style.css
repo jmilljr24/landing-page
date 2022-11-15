@@ -77,7 +77,6 @@ body {
 }
 
 .body-two {
-  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   text-align: center;
@@ -85,9 +84,10 @@ body {
 }
 
 .info {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: bolder;
   padding-bottom: 50px;
+  color: #1f2937;
 }
 .all-cards {
   display: flex;
@@ -106,8 +106,26 @@ body {
   max-width: 150px;
   color: rgb(88, 88, 88);
 }
-/*img {
-  max-width: 150px;
-  height: auto;
+
+.body-three {
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  background-color: #e5e7eb;
+  padding: 100px;
+  gap: 15px;
 }
-*/
+
+.quote {
+  padding-left: 12vw;
+  padding-right: 12vw;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+.author {
+  align-self: flex-end;
+  padding-right: 15vw;
+  font-weight: bold;
+  font-size: 24px;
+}
